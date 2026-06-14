@@ -177,21 +177,25 @@ Provides deeper business intelligence insights.
 
 ---
 
-# 📷 Dashboard Screenshots
+## Dashboard 1: Executive Sales Performance Dashboard
 
-## Executive Sales Performance Dashboard
+Provides a high-level overview of revenue, profitability, customer activity, and regional performance.
 
 ![Executive Dashboard](Dashboard_Screenshots/Executive_Dashboard.png)
 
 ---
 
-## Customer & Product Performance Dashboard
+## Dashboard 2: Customer & Product Performance Dashboard
+
+Analyzes customer behavior, product performance, and segment contribution.
 
 ![Customer Product Dashboard](Dashboard_Screenshots/Customer_Product_Dashboard.png)
 
 ---
 
-## Business Insights & Strategic Analysis Dashboard
+## Dashboard 3: Business Insights & Strategic Analysis Dashboard
+
+Provides strategic insights into trends, profitability, and business growth opportunities.
 
 ![Business Insights Dashboard](Dashboard_Screenshots/Business_Insights_Dashboard.png)
 
@@ -212,10 +216,10 @@ E-Commerce-Sales-Analytics-PowerBI
 │   └── Ecommerce_Sales_Analytics.pbix
 │
 ├── Dashboard_Screenshots
-│   ├── Executive_Dashboard.png
-│   ├── Customer_Product_Dashboard.png
-│   └── Business_Insights_Dashboard.png
-│
+  ├── Executive_Dashboard.png
+  ├── Customer_Product_Dashboard.png
+  └── Business_Insights_Dashboard.png
+
 
 ```
 
