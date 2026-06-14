@@ -1,118 +1,230 @@
-# Ecommerce Sales Analytics
+# 📊 E-Commerce Sales Analytics Dashboard Using Python & Power BI
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes retail sales data from a Superstore dataset to uncover business insights related to sales performance, profitability, customer behavior, product demand, and regional trends.
+This project demonstrates an end-to-end Business Intelligence workflow using Python and Power BI to analyze e-commerce sales data and generate actionable business insights.
 
-The objective is to transform raw transactional data into actionable business recommendations using Python and data analytics techniques.
-
----
-
-## Dataset Information
-
-- Dataset: Sample Superstore
-- Records: 9,994
-- Features: 21
-- Analysis Tool: Python
-- Environment: Google Colab
+The analysis focuses on sales performance, profitability, customer behavior, product performance, regional trends, and strategic business recommendations.
 
 ---
 
-## Tools & Libraries
+## 🎯 Objectives
+
+- Analyze sales and profit performance.
+- Identify top-performing products and customers.
+- Evaluate regional and segment-wise performance.
+- Discover seasonal sales trends.
+- Build interactive dashboards for decision-making.
+- Generate business recommendations based on data insights.
+
+---
+
+## 🛠️ Tools & Technologies
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Google Colab
+- Power BI
+- Jupyter Notebook / Google Colab
 
 ---
 
-## Project Workflow
+## 📂 Dataset
 
-### 1. Data Understanding
-- Dataset exploration
-- Data types inspection
-- Summary statistics
+**Dataset:** Sample Superstore Dataset
 
-### 2. Data Cleaning
-- Missing value analysis
-- Duplicate record verification
-- Data quality checks
+### Features
 
-### 3. Feature Engineering
-Created:
-- Year
-- Month
-- Quarter
-- Shipping Days
+- Order Date
+- Ship Date
+- Customer Information
+- Product Information
+- Category & Sub-Category
+- Sales
+- Profit
+- Discount
+- Quantity
+- Region
+- State
 
-### 4. KPI Analysis
-Calculated:
+### Dataset Size
+
+- Records: 9,994
+- Columns: 21
+
+---
+
+# 🐍 Python Data Analysis
+
+The dataset was analyzed using Python to perform:
+
+## Data Preparation
+
+- Data inspection
+- Data type verification
+- Feature engineering
+- Monthly analysis preparation
+
+## Exploratory Data Analysis (EDA)
+
+### Sales Analysis
+- Annual Sales Trend
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region
+- Sales by Customer Segment
+
+### Profit Analysis
+- Profit by Category
+- Profit by Region
+- Profit by Customer Segment
+
+### Customer Analysis
+- Top Revenue-Generating Customers
+
+### Product Analysis
+- Top Revenue-Generating Products
+- Top Product Sub-Categories
+
+### Statistical Analysis
+- Correlation Heatmap
+- Profit Distribution Analysis
+
+---
+
+# 📈 Key Findings
+
+| Metric | Value |
+|----------|----------|
+| Total Sales | $2.29 Million |
+| Total Profit | $286K |
+| Total Orders | 5,009 |
+| Total Customers | 793 |
+| Profit Margin | 12.47% |
+| Avg Shipping Days | 3.96 |
+
+### Business Insights
+
+- Technology generated the highest revenue and profit.
+- Consumer customers contributed the highest sales volume.
+- West region delivered the strongest revenue and profitability.
+- November and December were the strongest sales months.
+- Phones and Chairs were the best-performing sub-categories.
+- Higher discounts negatively impacted profitability.
+
+---
+
+# 📊 Power BI Dashboards
+
+## Dashboard 1: Executive Sales Performance Dashboard
+
+### Purpose
+Provides a high-level overview of company performance.
+
+### Includes
 - Total Sales
 - Total Profit
 - Total Orders
 - Total Customers
-- Average Shipping Time
-
-### 5. Customer Analysis
-- Sales by Segment
-- Profit by Segment
-- Top Customers
-
-### 6. Product Analysis
-- Sales by Category
-- Profit by Category
-- Top Products
-- Top Sub-Categories
-
-### 7. Regional Analysis
-- Sales by Region
-- Profit by Region
-
-### 8. Time-Series Analysis
-- Sales Trend by Year
-- Monthly Sales Trend
-
-### 9. Correlation Analysis
-- Sales vs Profit
-- Discount Impact
-- Quantity Relationships
+- Profit Margin %
+- Average Shipping Days
+- Annual Revenue Trend
+- Revenue by Product Category
+- Regional Revenue Distribution
+- Profitability by Product Category
 
 ---
 
-## Key Findings
+## Dashboard 2: Customer & Product Performance Dashboard
 
-- Total Sales reached **$2.29 Million**
-- Total Profit reached **$286K**
-- Technology generated the highest revenue and profit
-- Consumer customers contributed the highest sales
-- West region was the most profitable region
-- November and December recorded the highest sales
-- Phones and Chairs were the top-selling product categories
-- Higher discounts negatively affected profitability
+### Purpose
+Analyzes customer behavior and product performance.
 
----
-
-## Business Recommendations
-
-- Focus marketing efforts on Consumer customers
-- Expand Technology product offerings
-- Increase inventory before Q4 demand peaks
-- Optimize discount strategies
-- Improve sales performance in Central and South regions
+### Includes
+- Top Revenue-Generating Products
+- Top Revenue-Generating Customers
+- Revenue Contribution by Customer Segment
+- Profit Contribution by Customer Segment
+- Top Performing Product Sub-Categories
 
 ---
 
-## Conclusion
+## Dashboard 3: Business Insights & Strategic Analysis Dashboard
 
-The analysis reveals strong growth opportunities through customer-focused marketing, optimized inventory planning, and profitability-driven decision making. The findings can support strategic business improvements and enhance operational efficiency.
+### Purpose
+Provides deeper business intelligence insights.
+
+### Includes
+- Monthly Revenue Trend Analysis
+- Monthly Profit Trend Analysis
+- Regional Profitability Analysis
+- Regional Revenue Contribution
+- Impact of Discounts on Profitability
+- Revenue vs Profit Performance Analysis
 
 ---
 
-## Author
+# 💡 Business Recommendations
 
-Chethana Akarshani
+- Increase inventory before Q4 peak sales periods.
+- Expand Technology product offerings.
+- Focus marketing efforts on Consumer customers.
+- Reduce excessive discounting to improve profit margins.
+- Improve sales performance in Central and South regions.
+- Prioritize high-profit product categories for growth.
 
-IT Undergraduate | Data Analytics Enthusiast | Power BI & Python Learner
+---
+
+# 📷 Dashboard Screenshots
+
+## Executive Sales Performance Dashboard
+
+(Add Screenshot Here)
+
+## Customer & Product Performance Dashboard
+
+(Add Screenshot Here)
+
+## Business Insights & Strategic Analysis Dashboard
+
+(Add Screenshot Here)
+
+---
+
+# 📁 Repository Structure
+
+```text
+E-Commerce-Sales-Analytics-PowerBI
+│
+├── Data
+│   └── Sample-Superstore.csv
+│
+├── Python_Analysis
+│   └── Ecommerce_Sales_Analytics.ipynb
+│
+├── PowerBI
+│   └── Ecommerce_Sales_Analytics.pbix
+│
+├── Dashboard_Screenshots
+│   ├── Executive_Dashboard.png
+│   ├── Customer_Product_Dashboard.png
+│   └── Business_Insights_Dashboard.png
+│
+
+```
+
+---
+
+# 👩‍💻 Author
+
+**Chethana Akarshani**
+
+🎓 IT Undergraduate  
+📊 Aspiring Data Analyst  
+🐍 Python | 📈 Power BI | 📉 Data Visualization
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
