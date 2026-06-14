@@ -181,15 +181,19 @@ Provides deeper business intelligence insights.
 
 ## Executive Sales Performance Dashboard
 
-(Add Screenshot Here)
+![Executive Dashboard](Dashboard_Screenshots/Executive_Dashboard.png)
+
+---
 
 ## Customer & Product Performance Dashboard
 
-(Add Screenshot Here)
+![Customer Product Dashboard](Dashboard_Screenshots/Customer_Product_Dashboard.png)
+
+---
 
 ## Business Insights & Strategic Analysis Dashboard
 
-(Add Screenshot Here)
+![Business Insights Dashboard](Dashboard_Screenshots/Business_Insights_Dashboard.png)
 
 ---
 
