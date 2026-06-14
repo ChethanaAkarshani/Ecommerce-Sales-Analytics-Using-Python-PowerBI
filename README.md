@@ -181,7 +181,7 @@ Provides deeper business intelligence insights.
 
 Provides a high-level overview of revenue, profitability, customer activity, and regional performance.
 
-![Executive Dashboard](Dashboard_Screenshots/Executive_Dashboard.png)
+![Executive Dashboard](Ecommerce-Sales-Analytics/Dashboard_Screenshots/Executive_Dashboard.png)
 
 ---
 
@@ -189,7 +189,7 @@ Provides a high-level overview of revenue, profitability, customer activity, and
 
 Analyzes customer behavior, product performance, and segment contribution.
 
-![Customer Product Dashboard](Dashboard_Screenshots/Customer_Product_Dashboard.png)
+![Customer Product Dashboard](Ecommerce-Sales-Analytics/Dashboard_Screenshots/Customer_Product_Dashboard.png)
 
 ---
 
@@ -197,7 +197,7 @@ Analyzes customer behavior, product performance, and segment contribution.
 
 Provides strategic insights into trends, profitability, and business growth opportunities.
 
-![Business Insights Dashboard](Dashboard_Screenshots/Business_Insights_Dashboard.png)
+![Business Insights Dashboard](Ecommerce-Sales-Analytics/Dashboard_Screenshots/Business_Insights_Dashboard.png)
 
 ---
 
